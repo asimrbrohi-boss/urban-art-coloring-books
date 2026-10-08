@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2550" height="3300" viewBox="0 0 2550 3300" role="img" aria-labelledby="title desc">
+  <title id="title">Urban Jungle Coloring Book Front Cover v2</title>
+  <desc id="desc">A cleaner, more polished cover design for Urban Jungle Coloring Book with a skateboard cat, skyline, and large title.</desc>
+
+  <defs>
+    <style>
+      .title-main { font: 900 170px 'Arial Black', 'Arial', sans-serif; fill: #111111; letter-spacing: 2px; }
+      .title-sub { font: 800 74px 'Arial', sans-serif; fill: #111111; letter-spacing: 1px; }
+      .tag { font: 700 32px 'Arial', sans-serif; fill: #111111; letter-spacing: 8px; }
+      .outline { stroke: #111111; stroke-width: 14; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .dark { fill: #111111; }
+      .light { fill: #f8f8f8; }
+      .bg { fill: #f4f4f4; }
+      .city { fill: #ededed; }
+      .line { stroke: #111111; stroke-width: 12; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .cat { fill: #f8f8f8; stroke: #111111; stroke-width: 12; stroke-linejoin: round; }
+      .shadow { fill: rgba(0,0,0,0.08); }
+    </style>
+  </defs>
+
+  <rect width="2550" height="3300" class="bg"/>
+
+  <!-- Top city skyline -->
+  <g opacity="0.98">
+    <rect x="120" y="1600" width="110" height="320" class="city"/>
+    <rect x="250" y="1500" width="148" height="420" class="city"/>
+    <rect x="428" y="1625" width="120" height="295" class="city"/>
+    <rect x="575" y="1540" width="150" height="380" class="city"/>
+    <rect x="760" y="1590" width="120" height="330" class="city"/>
+    <rect x="900" y="1490" width="180" height="430" class="city"/>
+    <rect x="1115" y="1600" width="110" height="320" class="city"/>
+    <rect x="1240" y="1520" width="180" height="400" class="city"/>
+    <rect x="1465" y="1585" width="120" height="335" class="city"/>
+    <rect x="1595" y="1498" width="170" height="422" class="city"/>
+    <rect x="1810" y="1610" width="120" height="310" class="city"/>
+    <rect x="1965" y="1545" width="180" height="375" class="city"/>
+    <rect x="2185" y="1608" width="120" height="312" class="city"/>
+    <rect x="2320" y="1550" width="150" height="370" class="city"/>
+  </g>
+
+  <!-- Background mural -->
+  <g>
+    <rect x="1460" y="1050" width="740" height="690" fill="#f5f5f5" stroke="#111111" stroke-width="12"/>
+    <g stroke="#111111" stroke-width="11" fill="none">
+      <path d="M1508 1108 L1748 1108 L1748 1388 L1508 1388 Z"/>
+      <path d="M1752 1108 L1994 1108 L1994 1388 L1752 1388 Z"/>
+      <path d="M1998 1108 L2140 1108 L2140 1470 L1998 1470 Z"/>
+      <path d="M1508 1392 L1748 1392 L1748 1642 L1508 1642 Z"/>
+      <path d="M1752 1392 L1994 1392 L1994 1650 L1752 1650 Z"/>
+      <path d="M1508 1648 L1770 1648 L1770 1690 L1508 1690 Z"/>
+      <circle cx="1600" cy="1255" r="72"/>
+      <circle cx="1860" cy="1260" r="86"/>
+      <circle cx="2075" cy="1288" r="62"/>
+      <path d="M1718 1498 L1910 1498 L1815 1638 Z"/>
+      <path d="M1620 1560 L1700 1460 L1775 1560 Z"/>
+    </g>
+  </g>
+
+  <!-- Ground -->
+  <g>
+    <path d="M0 2160 L2550 2160 L2550 3300 L0 3300 Z" fill="#f0f0f0"/>
+    <path d="M0 2188 L2550 2188" class="line"/>
+    <path d="M0 2325 L2550 2325" class="line" opacity="0.65"/>
+    <path d="M0 2460 L2550 2460" class="line" opacity="0.55"/>
+    <path d="M0 2598 L2550 2598" class="line" opacity="0.45"/>
+    <path d="M0 2732 L2550 2732" class="line" opacity="0.4"/>
+  </g>
+
+  <!-- Ramp -->
+  <g>
+    <path d="M1220 2150 L1600 2150 L1940 2750 L1470 2750 Z" fill="#f7f7f7" stroke="#111111" stroke-width="12"/>
+    <path d="M1300 2150 L1545 2750" class="line"/>
+    <path d="M1490 2150 L1740 2750" class="line"/>
+    <path d="M1680 2150 L1910 2750" class="line"/>
+  </g>
+
+  <!-- Cat hero on skateboard -->
+  <g transform="translate(760 1240)">
+    <!-- board -->
+    <g transform="translate(250 760)">
+      <rect x="0" y="0" width="470" height="70" rx="12" class="cat"/>
+      <g class="dark">
+        <circle cx="80" cy="92" r="50" fill="#f8f8f8" stroke="#111111" stroke-width="10"/>
+        <circle cx="390" cy="92" r="50" fill="#f8f8f8" stroke="#111111" stroke-width="10"/>
+      </g>
+      <g fill="#111111">
+        <circle cx="60" cy="62" r="6"/>
+        <circle cx="130" cy="62" r="6"/>
+        <circle cx="200" cy="62" r="6"/>
+        <circle cx="270" cy="62" r="6"/>
+        <circle cx="340" cy="62" r="6"/>
+        <circle cx="410" cy="62" r="6"/>
+      </g>
+    </g>
+
+    <!-- cat body -->
+    <g>
+      <path d="M540 910 L725 910 Q783 910 820 958 L864 1015 Q890 1047 882 1085 L870 1145 Q853 1209 800 1236 L718 1270 L610 1287 L520 1279 L422 1242 L380 1188 L360 1115 L370 1040 L410 968 L470 922 L540 910 Z" class="cat"/>
+      <path d="M468 930 L550 840 L704 818 L770 836 L820 900" class="line"/>
+
+      <!-- belly -->
+      <path d="M522 971 Q598 1030 715 1030 Q785 1030 827 986 L826 1126 Q770 1168 700 1173 Q595 1178 532 1138 Z" fill="#f1f1f1" stroke="#111111" stroke-width="10"/>
+
+      <!-- head -->
+      <path d="M590 700 L764 705 Q830 711 870 760 L899 812 L898 885 L814 910 L726 918 L606 910 L516 874 L485 800 L510 740 L590 700 Z" class="cat"/>
+      <path d="M600 700 L633 616 L690 570 L767 565 L828 612 L877 700 L847 740 L770 716 L680 708 Z" class="cat"/>
+      <path d="M620 610 L644 548 L684 600 Z" class="dark"/>
+      <path d="M781 610 L807 548 L847 600 Z" class="dark"/>
+
+      <!-- eyes -->
+      <ellipse cx="690" cy="675" rx="18" ry="27" class="dark"/>
+      <ellipse cx="770" cy="676" rx="18" ry="27" class="dark"/>
+      <circle cx="695" cy="668" r="5" fill="#f8f8f8"/>
+      <circle cx="775" cy="669" r="5" fill="#f8f8f8"/>
+      <path d="M718 715 L741 334 734 714" class="line"/>
+      <path d="M725 720 L742 742 L706 740 Z" class="dark"/>
+      <path d="M706 744 Q731 761 756 744" class="line"/>
+      <path d="M706 752 L680 770" class="line"/>
+      <path d="M756 752 L782 770" class="line"/>
+
+      <!-- paws -->
+      <path d="M460 1174 L430 1340 L505 1364 L540 1210 Z" class="cat"/>
+      <path d="M618 1188 L596 1340 L680 1360 L699 1208 Z" class="cat"/>
+      <path d="M726 1182 L758 1340 L825 1328 L806 1181 Z" class="cat"/>
+
+      <!-- tail -->
+      <path d="M885 914 Q1012 910 1064 958 Q1088 980 1070 1018 Q1025 1038 980 1015 Q937 984 900 975 Z" class="cat"/>
+      <path d="M904 950 Q972 930 1037 960" class="line"/>
+    </g>
+  </g>
+
+  <!-- Title block -->
+  <g>
+    <text x="120" y="405" class="tag">URBAN JUNGLE</text>
+    <text x="120" y="610" class="title-main">URBAN</text>
+    <text x="120" y="790" class="title-main">JUNGLE</text>
+    <text x="120" y="920" class="title-sub">COLORING BOOK</text>
+    <line x1="122" y1="980" x2="1360" y2="980" class="line"/>
+    <text x="122" y="1065" class="tag">CITY ANIMALS</text>
+    <text x="122" y="1145" class="tag">&amp; NEIGHBORHOOD</text>
+    <text x="122" y="1225" class="tag">ADVENTURES</text>
+  </g>
+
+  <!-- Bottom accent -->
+  <g>
+    <rect x="120" y="2680" width="600" height="26" fill="#111111"/>
+    <rect x="760" y="2680" width="600" height="26" fill="#111111"/>
+    <rect x="1410" y="2680" width="1020" height="26" fill="#111111"/>
+  </g>
+</svg>
